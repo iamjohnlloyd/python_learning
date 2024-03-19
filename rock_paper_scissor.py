@@ -3,15 +3,15 @@ import random
 # Create a random list selector
 print("...rock...\n..paper..\n...scissors...")
 
-items = ['rock','paper','scissors']
+items = ['rock', 'paper', 'scissors']
 
 player_one = random.choice(items)
 
 print("(Enter player 1's choice): " + player_one)
- 
+
 for x in range(60):
     print("...NO CHEATING...")
-    
+
 player_two = input("(Enter Player 2's choice): ").lower()
 
 while player_two != 'rock' and player_two != 'paper' and player_two != 'scissors':

@@ -1,4 +1,4 @@
-x = 100 
+x = 100
 khaleesi_mother_of_dragons = 1
 
 print(khaleesi_mother_of_dragons + x)
@@ -11,5 +11,3 @@ print(type(gmailAccount))
 awesomeness = True
 
 print(awesomeness)
-
-
